@@ -2,7 +2,6 @@
 
 # Compiled output
 /dist
-!dist/styles.css # Keep the final CSS output
 /tmp
 /out-tsc
 /bazel-out
@@ -41,7 +40,3 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-
-# Ignore Tailwind and PostCSS config files if not needed
-tailwind.config.js
-postcss.config.js
